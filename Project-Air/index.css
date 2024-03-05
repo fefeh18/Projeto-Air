@@ -1,0 +1,142 @@
+header {
+    background-color: rgb(98, 114, 255);
+    padding: 5px;
+}
+.list-hero {
+    display: flex;
+    gap: 3rem;
+    list-style-type: none; 
+}
+
+.list-hero a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-hero a:hover {
+    transition: 0.5s;
+    color: white;
+}
+.li-contato{
+    background-color: red;
+}
+
+.title-main {
+    font-size: 64px;
+    color: rgb(54, 53, 53);
+    margin-left: 5%;
+}
+
+.cards {
+    width: 39%;
+    max-height:300px;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+}
+
+
+.cards-list::-webkit-scrollbar {
+    width: 10px; 
+  }
+
+  .cards-list::-webkit-scrollbar-track {
+    background: transparent;
+  }  
+
+ .cards-list::-webkit-scrollbar-thumb {
+    background: rgb(98, 114, 255);
+    border-radius: 10px;
+  }
+
+.cards-list {
+    list-style: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 300px;
+    width: 315px;
+    
+}
+
+.cards-list img{
+    max-width: 300px;
+}
+
+.div-flex {
+    display: flex;
+    gap: 2.5rem;
+    /* flex-direction: row; */
+}
+
+.cards-travel {
+margin-bottom: 50px;
+}
+
+.title-travel {
+    margin: 0;
+    color:rgb(54, 53, 53);
+}
+
+.travels img{
+    max-width: 300px;
+
+}
+
+.btn-space {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.detail {
+    margin: 0;
+    display: flex;
+    gap: 12px;
+}
+
+.detail span {
+    margin: 0;
+    background-color: rgb(98, 114, 255);
+    width: 30px;
+    height: 8px;
+    border-radius: 50px;
+    margin-top: 21px;
+}
+
+.btn {
+    background-color: rgb(98, 114, 255);
+    border: none;
+    padding: 0.6rem;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 90px;   
+}
+
+.btn:hover {
+    background: orange;
+    transition: 0.5s;
+}
+
+.image {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: auto;
+}
+
+.image img {
+    max-height: 300px;
+}
+
+.spanss {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: rgb(98, 114, 255);
+    padding: 3px; 
+    margin-top: 15px;
+}
